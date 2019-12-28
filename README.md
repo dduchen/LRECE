@@ -1,6 +1,8 @@
 # LRECE
 LRECE (**L**ong **R**ead **E**rror **C**orrection **E**valuation) is a set of scripts that can establish benchmark data sets, run error correction tools and evaluation correction quality.
 
+Manuscript [souce] (https://www.biorxiv.org/content/10.1101/519330v2): **A comprehensive evaluation of long read error correction methods**
+
 ## Installation
 ### Install dependencies
 Make sure [Conda](https://conda.io/docs/) is in your *PATH* environment variable. A Conda environment named *lrece* will be created after the installation.
@@ -12,7 +14,7 @@ LRECE also uses [minimap2](https://github.com/lh3/minimap2/), [seqtk](https://gi
 ### Download and install
 First get the repo:
 ```
-git clone git@github.com:haowenz/LRECE.git
+git clone https://github.com/haowenz/LRECE.git
 ```
 Then just run:
 ```
